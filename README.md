@@ -22,12 +22,62 @@ A fashion shop created from scratch, from backend using Postgre, Node.JS, and mo
 </table>
 
 ## 🎉 Features
+# Customer App:
+**User Authentication:**
+- Login with email and password
+- Register new accounts
+- Social Sign-In with Google
 
-- **Shalat Reminder**: Receive timely reminders for prayer times.
-- **Shalat Schedule**: Maintain a personalized schedule of prayer times.
-- **Next Shalat**: Showing what prayer should be performed next.
-- **Quran Reader**:  Access and read the Quran conveniently.
-- **Zakat Calculator**: Calculate and manage your Zakat obligations easily.
+**User Profile Management:**
+- Update profile information
+- Change password
+- View order history
+
+**Product Management:**
+- Browse products by category
+- Search for products
+- View product details
+- Add products to cart
+- Add quantity
+- Add color of product/s
+  
+**Cart Management:**
+- View shopping cart
+- Update quantity of items in the cart
+- Remove items from the cart
+- Calculate total price of items in the cart
+- Empty cart
+  
+**Checkout Process:**
+- Proceed to checkout from the cart
+- Enter shipping address
+- Select payment method
+- Review order summary
+- Confirm order
+  
+**Payment Integration:**
+- Secure payment gateway integration using Midtrans
+- Process payments using various methods (credit/debit cards, e-wallets, bank transfer)
+  
+**Order Management:**
+- View order status
+- Track order delivery
+- Cancel orders (within a certain timeframe)
+
+**Contact customer support:**
+- FAQs section
+- Term and Conditions
+  
+**Security:**
+- Secure authentication and data transmission (HTTPS)
+
+# CMS App:
+**Admin Authentication:** Only Admin can login cms
+**Product Management:** CRUD product
+**Brand Management:** CRUD brand
+**Category Management:** CRUD product
+**Transaction Checker:** Access and read all transactions
+**Admin Creator:** Able to create another admin
 
 ## 🏗️ Architecture
 
