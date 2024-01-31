@@ -1,16 +1,21 @@
 # 💅🏻 Stylish Shop
 
 A fashion shop created from scratch, from backend using Postgre, Node.JS, and more, CMS using react, and client using flutter with GetX pattern.
+
+## Mobile UI
+<img src="https://github.com/andikatp/stylish-shop/blob/main/img/flutter.jpg" width="1000"/>
+
+## CMS UI
 <table >
   <tr >
-    <td align="center"><img src="https://github.com/andikatp/Muslim-App/blob/main/img/1.png" height="500" /></td>
-    <td align="center"><img src="https://github.com/andikatp/Muslim-App/blob/main/img/2.png" height="500" /></td>
-    <td align="center"><img src="https://github.com/andikatp/Muslim-App/blob/main/img/3.png" height="500" /></td>
+    <td align="center"><img src="https://github.com/andikatp/stylish-shop/blob/main/img/1.png" height="500" /></td>
+    <td align="center"><img src="https://github.com/andikatp/stylish-shop/blob/main/img/2.png" height="500" /></td>
+    <td align="center"><img src="https://github.com/andikatp/stylish-shop/blob/main/img/3.png" height="500" /></td>
   </tr>
   <tr>
-    <td align="center"><img src="https://github.com/andikatp/Muslim-App/blob/main/img/4.png" height="500" /></td>
-    <td align="center"><img src="https://github.com/andikatp/Muslim-App/blob/main/img/5.png" height="500" /></td>
-    <td align="center"><img src="https://github.com/andikatp/Muslim-App/blob/main/img/6.png" height="500" /></td>
+    <td align="center"><img src="https://github.com/andikatp/stylish-shop/blob/main/img/4.png" height="500" /></td>
+    <td align="center"><img src="https://github.com/andikatp/stylish-shop/blob/main/img/5.png" height="500" /></td>
+    <td align="center"><img src="https://github.com/andikatp/stylish-shop/blob/main/img/6.png" height="500" /></td>
   </tr>
 </table>
 
