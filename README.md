@@ -72,12 +72,12 @@ A fashion shop created from scratch, from backend using Postgre, Node.JS, and mo
 - Secure authentication and data transmission (HTTPS)
 
 # CMS App:
-**Admin Authentication:** Only Admin can login cms
-**Product Management:** CRUD product
-**Brand Management:** CRUD brand
-**Category Management:** CRUD product
-**Transaction Checker:** Access and read all transactions
-**Admin Creator:** Able to create another admin
+**Admin Authentication:** Only Admin can login cms<br>
+**Product Management:** CRUD product<br>
+**Brand Management:** CRUD brand<br>
+**Category Management:** CRUD product<br>
+**Transaction Checker:** Access and read all transactions<br>
+**Admin Creator:** Able to create another admin<br>
 
 ## 🏗️ Architecture
 
