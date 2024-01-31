@@ -1,4 +1,3 @@
-import 'package:stylish_shop/routes/app_pages.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:intl/intl.dart';
@@ -63,7 +62,7 @@ class SearchPageView extends GetView<SearchPageController> {
               itemCount: searchController.products.length,
               itemBuilder: (context, index) {
                 final product = searchController.products[index];
-                
+
                 return InkWell(
                   onTap: () => controller.goToDetail(product),
                   child: Container(
