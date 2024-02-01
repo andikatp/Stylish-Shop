@@ -98,13 +98,13 @@ The project adopts a Test-Driven Development (TDD) approach to ensure code relia
 - **[dio](https://pub.dev/packages/dio)**: HTTP client for making network requests.
 - **[firebaseAuth](https://pub.dev/packages/firebase_auth)**: Firebase authentication for Flutter apps.
 - **[firebaseCore](https://pub.dev/packages/firebase_core)**: Firebase core functionality for Flutter.
-- **[FlutterKeyboardVisibility]([https://pub.dev/packages/flutter_screenutil](https://pub.dev/packages/flutter_keyboard_visibility):** Detecting keyboard visibility in Flutter.
+- **[FlutterKeyboardVisibility](https://pub.dev/packages/flutter_keyboard_visibility):** Detecting keyboard visibility in Flutter.
 - **[FlutterScreenUtils](https://pub.dev/packages/flutter_screenutil):** Streamlining screen adaptation across different sizes.
 - **[FlutterSlidable](https://pub.dev/packages/flutter_slidable):** Slidable widgets for Flutter.
-- **[Get](https://pub.dev/packages/get): State management solution for Flutter.
-- **[GoogleFonts](https://pub.dev/packages/google_fonts): Custom fonts from the Google Fonts library.
-- **[GetStorage](https://pub.dev/packages/get_storage): Persistent storage solution using key-value pairs.
-- **[GoogleSignIn](https://pub.dev/packages/google_sign_in): Google sign-in integration for Flutter apps.
+- **[Get](https://pub.dev/packages/get):** State management solution for Flutter.
+- **[GoogleFonts](https://pub.dev/packages/google_fonts):** Custom fonts from the Google Fonts library.
+- **[GetStorage](https://pub.dev/packages/get_storage):** Persistent storage solution using key-value pairs.
+- **[GoogleSignIn](https://pub.dev/packages/google_sign_in):** Google sign-in integration for Flutter apps.
 - **[ImagePicker](https://pub.dev/packages/image_picker)**: Image picker for selecting images from the device.
 - **[Intl](https://pub.dev/packages/intl)**: Image picker for selecting images from the device.
 - **[jsonAnotation](https://pub.dev/packages/json_anotation)**: JSON serialization and deserialization for Dart.
