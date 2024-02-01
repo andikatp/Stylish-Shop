@@ -22,7 +22,7 @@ A fashion shop created from scratch, from backend using Postgre, Node.JS, and mo
 </table>
 
 ## 🎉 Features
-# Customer App:
+### Customer App:
 **User Authentication:**
 - Login with email and password
 - Register new accounts
@@ -71,7 +71,7 @@ A fashion shop created from scratch, from backend using Postgre, Node.JS, and mo
 **Security:**
 - Secure authentication and data transmission (HTTPS)
 
-# CMS App:
+### CMS App:
 **Admin Authentication:** Only Admin can login cms<br>
 **Product Management:** CRUD product<br>
 **Brand Management:** CRUD brand<br>
@@ -81,11 +81,11 @@ A fashion shop created from scratch, from backend using Postgre, Node.JS, and mo
 
 ## 🏗️ Architecture
 
-The project follows the principles of Clean Architecture, emphasizing separation of concerns and maintainability. It is structured into distinct layers, including:
+The project follows the principles of GetX Architecture, emphasizing simplicity, performance, and scalability. It is structured into distinct layers, including:
 
-Presentation Layer: User interfaces and components built with Flutter.
-Domain Layer: Contains business logic and use cases.
-Data Layer: Manages data sources, repositories, and external services.
+View Layer: User interfaces and components built with Flutter, managed by GetX controllers.
+Logic Layer: Contains business logic, state management, and navigation, implemented using GetX controllers and services.
+Data Layer: Manages data sources, repositories, and external services, integrated with GetX reactive state management.
 
 ## 🧪 Testing
 
@@ -93,27 +93,63 @@ The project adopts a Test-Driven Development (TDD) approach to ensure code relia
 
 ## 🛠️ Built With
 
-- **[AndroidAlarmManagerPlus](https://pub.dev/packages/android_alarm_manager_plus):** Scheduling background tasks on Android with ease.
-- **[Bloc](https://pub.dev/packages/flutter_bloc):** Efficient state management for Flutter applications.
-- **[BlocTest](https://pub.dev/packages/bloc_test):** Helper methods for testing BLoC components.
-- **[CurrencyTextInputFormatter]:** Formatting currency input in text fields.
-- **[Dartz](https://pub.dev/packages/dartz):** Bringing functional programming to Dart.
-- **[EasyDateTimeline]:** Simplified timeline-based date picker.
-- **[Equatable](https://pub.dev/packages/equatable):** Simplifying equality comparisons in Dart.
-- **[flutterBloc](https://pub.dev/packages/flutter_bloc):** Legacy version of the Bloc library for Flutter.
-- **[flutterLocalNotification](https://pub.dev/packages/flutter_local_notifications):** Handling local notifications in Flutter.
+### Flutter
+- **[CachedNetworkImage](https://pub.dev/packages/cached_network_image)**: Caching network images for improved performance.
+- **[dio](https://pub.dev/packages/dio)**: HTTP client for making network requests.
+- **[firebaseAuth](https://pub.dev/packages/firebase_auth)**: Firebase authentication for Flutter apps.
+- **[firebaseCore](https://pub.dev/packages/firebase_core)**: Firebase core functionality for Flutter.
+- **[FlutterKeyboardVisibility]([https://pub.dev/packages/flutter_screenutil](https://pub.dev/packages/flutter_keyboard_visibility):** Detecting keyboard visibility in Flutter.
 - **[FlutterScreenUtils](https://pub.dev/packages/flutter_screenutil):** Streamlining screen adaptation across different sizes.
-- **[flutterSvg](https://pub.dev/packages/flutter_svg):** SVG rendering in Flutter.
-- **[GetIt](https://pub.dev/packages/get_it):** A straightforward service locator for Dart and Flutter projects.
-- **[Http](https://pub.dev/packages/http):** Making composable and Future-based HTTP requests.
-- **[internetConnectionCheckerPlus](https://pub.dev/packages/internet_connection_checker_plus):** Checking internet connectivity.
-- **[IconifyFlutter]:** Displaying custom icons in Flutter apps.
-- **[intl](https://pub.dev/packages/intl):** Internationalization and localization support for Dart.
-- **[Lottie](https://pub.dev/packages/lottie):** Seamless integration of Lottie files for captivating animations.
-- **[Mocktail](https://pub.dev/packages/mocktail):** A powerful mocking library for Dart and Flutter.
-- **[Provider](https://pub.dev/packages/provider):** Simple and effective state management using provider patterns.
-- **[RxDart](https://pub.dev/packages/rxdart):** Reactive programming in Dart.
-- **[VeryGoodAnalysis](https://pub.dev/packages/very_good_analysis):** Ensuring code quality with best practices.
+- **[FlutterSlidable](https://pub.dev/packages/flutter_slidable):** Slidable widgets for Flutter.
+- **[Get](https://pub.dev/packages/get): State management solution for Flutter.
+- **[GoogleFonts](https://pub.dev/packages/google_fonts): Custom fonts from the Google Fonts library.
+- **[GetStorage](https://pub.dev/packages/get_storage): Persistent storage solution using key-value pairs.
+- **[GoogleSignIn](https://pub.dev/packages/google_sign_in): Google sign-in integration for Flutter apps.
+- **[ImagePicker](https://pub.dev/packages/image_picker)**: Image picker for selecting images from the device.
+- **[Intl](https://pub.dev/packages/intl)**: Image picker for selecting images from the device.
+- **[jsonAnotation](https://pub.dev/packages/json_anotation)**: JSON serialization and deserialization for Dart.
+- **[LiquidPullToRefresh](https://pub.dev/packages/liquid_pull_to_refresh)**: Pull-to-refresh widget for Flutter.
+- **[Lottie](https://pub.dev/packages/lottie)**: Lottie animations for Flutter.
+- **[PrettyDioLogger](https://pub.dev/packages/pretty_dio_logger)**: Pretty logging for Dio HTTP client.
+- **[Shimmer](https://pub.dev/packages/shimmer)**: Shimmer effect for loading content placeholders.
+- **[SmoothPageIndicator](https://pub.dev/packages/smooth_page_indicator)**: Smooth page indicators for PageView.
+- **[WebviewFlutter](https://pub.dev/packages/webview_flutter)**: WebView widget for displaying web content in Flutter.
+
+### CMS
+- **[@reduxjs/toolkit](https://www.npmjs.com/package/@reduxjs/toolkit)**: State management library for React applications.
+- **[axios](https://www.npmjs.com/package/axios)**: Promise-based HTTP client for the browser and Node.js.
+- **[chart.js](https://www.npmjs.com/package/chart.js)**: JavaScript charting library for creating interactive charts.
+- **[intl](https://www.npmjs.com/package/intl)**: Internationalization and localization support for JavaScript.
+- **[react](https://react.dev/)**: JavaScript library for building user interfaces.
+- **[react-chartjs-2](https://www.npmjs.com/package/react-chartjs-2)**: React wrapper for Chart.js to create charts in React.
+- **[react-dom](https://www.npmjs.com/package/react-dom)**: Entry point to the DOM and server renderers for React.
+- **[react-icons](https://www.npmjs.com/package/react-icons)**: Library for popular icons in React applications.
+- **[react-redux](https://www.npmjs.com/package/react-redux)**: Official React bindings for Redux.
+- **[react-router-dom](https://reactrouter.com/en/main)**: DOM bindings for React Router.
+- **[react-scripts](https://www.npmjs.com/package/react-scripts)**: Configuration and scripts for Create React App.
+- **[sweetalert2](https://www.npmjs.com/package/sweetalert2)**: Library for beautiful, responsive, and customizable alerts.
+- **[vercel](https://vercel.com/)**: Frontend Cloud. Build, scale, and secure a faster, personalized web.
+
+### Backend
+- **[@googleCloud/storage](https://www.npmjs.com/package/@google-cloud/storage)**: Cloud storage service provided by Google Cloud.
+- **[bcrypt](https://www.npmjs.com/package/bcrypt)**: Library for hashing passwords.
+- **[cors](https://www.npmjs.com/package/cors)**: Middleware for handling Cross-Origin Resource Sharing (CORS) in Express.
+- **[dotenv](https://www.npmjs.com/package/dotenv)**: Module for loading environment variables from a .env file.
+- **[express](https://www.npmjs.com/package/express)**: Fast, unopinionated, minimalist web framework for Node.js.
+- **[firebase](https://www.npmjs.com/package/firebase)**: SDK for Firebase services such as Cloud Firestore, Authentication, etc.
+- **[firebase-admin](https://www.npmjs.com/package/firebase-admin)**: Firebase Admin SDK for managing Firebase services from privileged environments.
+- **[google-auth-library](https://www.npmjs.com/package/google-auth-library)**: Google's officially supported Node.js client library for OAuth 2.0.
+- **[jsonwebtoken](https://www.npmjs.com/package/jsonwebtoken)**: Library for generating and verifying JSON Web Tokens (JWT).
+- **[midtrans-client](https://www.npmjs.com/package/midtrans-client)**: Client library for Midtrans, an online payment gateway.
+- **[multer](https://www.npmjs.com/package/multer)**: Middleware for handling multipart/form-data, used for file uploads.
+- **[pg](https://www.npmjs.com/package/pg)**: PostgreSQL client for Node.js.
+- **[sequelize](https://www.npmjs.com/package/sequelize)**: Promise-based Node.js ORM for PostgreSQL, MySQL, MariaDB, SQLite, and Microsoft SQL Server.
+- **[swagger-ui-express](https://www.npmjs.com/package/swagger-ui-express)**: Middleware for serving Swagger UI generated by Swagger tools.
+- **[vercel](https://vercel.com/)**: Frontend Cloud. Build, scale, and secure a faster, personalized web.
+
+### Server
+- **[Postgres](https://www.postgresql.org/)**: Powerful, open source object-relational database system with over 35 years of active development.
+- **[DBeaver](https://dbeaver.io/)**: Cross-platform database tool for developers, database administrators, analysts, and everyone working with data.
 
 # DEMO
 <img src="https://github.com/andikatp/Muslim-App/blob/main/img/muslim.gif" width="250" height="500"/>
