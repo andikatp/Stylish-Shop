@@ -152,6 +152,6 @@ The project adopts a Test-Driven Development (TDD) approach to ensure code relia
 - **[DBeaver](https://dbeaver.io/)**: Cross-platform database tool for developers, database administrators, analysts, and everyone working with data.
 
 # DEMO
-<img src="https://github.com/andikatp/Muslim-App/blob/main/img/muslim.gif" width="250" height="500"/>
+- *ON Progress Recording...*
 
 ### Feel free to explore and contribute to make this project even better! 🚀
