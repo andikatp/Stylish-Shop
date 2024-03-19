@@ -1,7 +1,7 @@
 # 💅🏻 Stylish Shop
 
 A fashion shop created from scratch, from backend using Postgre, Node.JS, and more, CMS using react, and client using flutter with GetX pattern.
-
+ 
 ## Mobile UI
 <img src="https://github.com/andikatp/stylish-shop/blob/main/img/flutter.jpg" width="1000"/>
 
